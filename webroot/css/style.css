@@ -1,0 +1,122 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+}
+
+h1 {
+  font: 25px/1.8em Arial;
+  color:#00a19b;
+}
+
+h2 {
+  font: bold 15px/1.8em Arial;
+  color:#A786A8;
+  border-bottom: 1px dotted #7cc2be;
+}
+hr{
+	background-color:#A786A8;
+}
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+.navbar > nav {
+    display: none;
+  }
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 0px;
+  left: 130px;
+  font: 48px/1.6em Arial;
+  color:#00a19b;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 60px;
+  left: 130px;
+  font: italic 20px/1.8em Arial;
+  color:#7cc2be;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #A786A8;
+  padding-top: 22px;
+  font: 12px/1.8em Arial;
+}
+
+.sitefooter {
+  color: #999;
+}
+
+.sitefooter a {
+  color: #629692;
+  text-decoration:none;
+}
+
+.sitefooter a:hover {
+  color: #7cc2be;
+  text-decoration:none;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 955px;
+  font: 14px/1.6em Arial;;
+  border-right: 1px solid #A786A8;
+  padding-right: 20px;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #A786A8;
+}
+
+.byline {
+  margin-top: 135px;
+  font: italic 11px/1.8em Arial;
+  border-top: 1px dashed #A786A8;
+  padding-top: 15px;
+  color: #999;
+}
+
+.byline p {
+  margin-top: 0;
+}

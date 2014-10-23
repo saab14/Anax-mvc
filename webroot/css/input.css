@@ -1,0 +1,47 @@
+/**
+ * Style for comment system forms
+ */
+
+
+.buttons {
+  padding-top : 5px;
+  padding-bottom : 5px;
+} 
+
+fieldset {
+	border:none;
+}
+
+label {
+    
+}
+
+
+
+input[type=number], input[type=text], 
+input[type=search], input[type=password], form select, textarea, 
+input[type=datetime]{ 
+    padding:5px;
+	width:25%; 
+    border:1px solid #66C5BA;  
+    -webkit-border-radius: 4px; 
+    border-radius: 4px; 
+    outline:0; 
+} 
+input[type=submit], input[type=reset], button{ 
+     padding:5px 9px 5px 9px;  
+    border:1px solid transparent;  
+    -webkit-border-radius: 4px; 
+    border-radius: 4px; 
+    outline:0; 
+    background:#A786A8; 
+    color:#fff; 
+}  
+input[type=submit]:hover, input[type=reset]:hover{ 
+background:#59446E; 
+}  
+
+
+input[type=number]:focus, input[type=text]:focus, input[type=search]:focus, input[type=password]:focus, input[type=datetime]:focus, textarea:focus{ 
+    border:solid 1px #FE7286; 
+}
